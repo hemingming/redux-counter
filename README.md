@@ -1,4 +1,7 @@
-## redux-counter :sunny:
+# Redux-counter :sunny:
 
-#### npm insatll
-#### npm run dev
+#### npm insatll :corn:
+#### npm run dev :corn:
+
+## components containers actions reducers :rocket:
+ 
