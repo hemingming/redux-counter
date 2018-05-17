@@ -1,0 +1,22 @@
+{
+  "name": "redux-counter",
+  "version": "1.0.0",
+  "description": "redux-counter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hemingming/redux-counter.git"
+  },
+  "keywords": [
+    "redux-counter"
+  ],
+  "author": "Ming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemingming/redux-counter/issues"
+  },
+  "homepage": "https://github.com/hemingming/redux-counter#readme"
+}
