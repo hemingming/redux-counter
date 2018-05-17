@@ -1,4 +1,4 @@
-#### redux-counter
+## redux-counter ROCKET
 
 #### npm insatll
 #### npm run dev
