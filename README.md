@@ -3,5 +3,5 @@
 #### npm insatll :corn:
 #### npm run dev :corn:
 
-## components containers actions reducers :rocket:
+## components  containers  actions  reducers  :rocket:
  
