@@ -27,7 +27,7 @@ module.exports = {
     	extensions: ['.js', '.jsx', 'css', '.styl', '.png', '.jpg', '.svg', '.json', 'jsonp']
     },
 	plugins: [
-		new webpack.HotModuleReplacementPlugin(),	//热模块替换插件
+		new webpack.HotModuleReplacementPlugin(),
 		new CleanWebpackPlugin(['dist']),
 		new HtmlWebpackPlugin({
 			template: path.resolve(__dirname, '../index.html')

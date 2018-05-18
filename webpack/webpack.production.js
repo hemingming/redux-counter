@@ -37,7 +37,7 @@ module.exports = {
     	extensions: ['.js', '.jsx', 'css', '.styl', '.png', '.jpg', '.svg', '.json', 'jsonp']
     },
 	plugins: [
-		new webpack.HotModuleReplacementPlugin(),	//热模块替换插件
+		new webpack.HotModuleReplacementPlugin(),
 		new HtmlWebpackPlugin({
 			template: path.resolve(__dirname, '../index.html')
 		})
@@ -51,14 +51,7 @@ module.exports = {
   		historyApiFallback: true,
   		hot: true,
   		inline: true,
-  		progress: true,
-  		proxy: {
-			"/doubanapi": {
-				target: "http://db.miaov.com",
-				secure: false,
-				changeOrigin: true
-			}
-  		}
+  		progress: true
 	}
 
 }

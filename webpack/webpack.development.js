@@ -36,14 +36,7 @@ module.exports = merge(webpackconfig, {
   		historyApiFallback: true,
   		hot: true,
   		inline: true,
-  		progress: true,
-  		proxy: {
-			"/doubanapi": {
-				target: "http://db.miaov.com",
-				secure: false,
-				changeOrigin: true
-			}
-  		}
+  		progress: true
 	}
 
 })
